@@ -1,0 +1,165 @@
+.em-title {
+    font-size:4.4em;
+}
+
+.em-p {
+    font-size: 1.4em;
+}
+
+.navbar-brand {
+    font-size: 3em;
+}
+
+.jumbotron {
+    top: 95px;
+    position: relative;
+    bottom:100px;
+    background:url('./images/bg1.jpg') no-repeat top center;
+    height:500px;
+}
+
+.jumbotron .app-btn {
+    width:40%;
+    margin-left:40px;
+}
+
+.jumbotron p {
+    margin-bottom:40px;
+}
+
+.jumbotron .app-mobile {
+    width: 56%;
+}
+
+/* section 1 middle */
+
+#title-bar {
+    top:90px;
+    position: relative;
+    padding:25px;
+}
+
+#middle, #about {
+    padding:30px;
+    top:70px;
+    position: relative;
+}
+
+/* features */
+
+#features {
+    top:60px;
+    position: relative;
+    padding: 50px;
+}
+
+#features ul li {
+    background:transparent;
+    border:none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#features ul li i {
+    color: #fff;
+}
+
+#features .cam-icon {
+    width:400px;
+}
+
+/* footer section */
+
+footer {
+    padding:30px 0 20px 0;
+    top:60px;
+    position: relative;
+}
+
+footer li {
+    float:left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer li a {
+    color:#fff;
+}
+
+footer li a:hover {
+    text-decoration: none;
+}
+
+/* mobile optimization */
+@media only screen and (max-width:600px) {
+
+    .em-title {
+        font-size:2.2em;
+    }
+
+    .em-p {
+        font-size: 1.223em;
+    }
+
+    .navbar-brand {
+        font-size: 2.2em;
+    }
+
+    .jumbotron {
+        top:50px;
+        position: relative;
+    }
+
+    .jumbotron .app-btn {
+        width:40%;
+        margin-left: 20px;
+        left:10px;
+        position: relative;
+    }
+
+    .jumbotron .app-mobile {
+        width:63%;
+        left:85px;
+        position: relative;
+    }
+
+    #features .cam-icon {
+        width:200px;
+    }
+
+    #features h1 {
+        font-size: 1.4em;
+    }
+
+    #features {
+        padding:20px;
+        top:60px;
+        position: relative;
+    }
+
+    #features ul li {
+        font-size: 16px;
+        font-weight: bold;
+        list-style: none;
+        line-height: 1.2em;
+    }
+
+    #middle .card {
+        margin:10px;
+    }
+
+    #title-bar {
+        top:70px;
+        padding: 20px;
+        position: relative;
+    }
+
+    footer {
+        padding:20px 0 10px 0;
+    }
+
+    footer li {
+        float:left;
+        padding:0 5px 0 5px;
+    }
+}

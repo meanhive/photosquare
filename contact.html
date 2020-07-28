@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Photo Square</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="vendor/style.css" type="text/css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary static-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Photo Square</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- menu -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- title bar for about -->
+    <section id="title-bar" class="bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-white">Contact Photo Square</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- middle section -->
+
+    <section id="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                   <form action="">
+                       <div class="form-group">
+                            <label for="firstname">Firstname</label>
+                            <input type="text" class="form-control" name="firstname" placeholder="Enter Firstname">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="lastname">Lastname</label>
+                            <input type="text" class="form-control" placeholder="Enter Lastname" name="lastnmae">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="emailid">Email Id</label>
+                            <input type="email" name="emailid" id="" class="form-control" placeholder="Enter Email id">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="mobile">Mobile</label>
+                            <input type="number" name="mobile" id="" class="form-control" placeholder="Enter 10 digit mobile number">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea name="comment" class="form-control" id="" cols="30" rows="5"></textarea>
+                       </div>
+
+                       <div class="form-group">
+                            <input type="submit" value="Submit" class="btn btn-success">
+                            <input type="reset" value="Clear form" class="btn btn-danger">
+                       </div>
+                   </form>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="vendor/images/capt-1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4>Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet facilisis suscipit.
+                                Donec ut viverra dolor, eget mattis odio. Curabitur consectetur ac nibh vitae aliquet. Donec
+                                ullamcorper dapibus ipsum, sit amet sollicitudin neque.</p>
+                            <a href="#" class="btn btn-warning">Learn More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer section -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privatepolicy.html">Private Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-center">CopyRight &copy; 2020, All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
